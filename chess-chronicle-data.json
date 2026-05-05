@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-05T18:36:43.490Z",
+  "_savedAt": "2026-05-05T18:37:07.114Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -231,7 +231,7 @@
         "11": "Interestingly, the engine already thinks 6...c5 is a forced draw, after a line like 7. a3, 7. Rb1, 7. d3 or 7. O-O. After 6...Nc6, White has a slight advantage but not a winning one.",
         "13": "There is little more to be gained from holding back the central thrust much longer.",
         "15": "An odd maneouvre, and while not bad, it is not clear what Black intended with this move.",
-        "16": "An unnecessary central thust. "
+        "16": "An unnecessary central thust. 9. f4, working on the already developed Kingside, is more effective."
       },
       "notes": "",
       "status": "approved",
