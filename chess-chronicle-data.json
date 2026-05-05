@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-05T17:16:24.443Z",
+  "_savedAt": "2026-05-05T17:16:41.433Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -226,7 +226,7 @@
         "5": "Black is dearly trying to induce White to transpose into a King's Indian by playing d4, but as we shall see, that is not White's intention.",
         "8": "",
         "10": "Note that if White had played d4 here we would be in a main line of the King's Indian Defence.",
-        "11": "Interestingly, the engine already thinks 6...c5 is a forced draw, after a line like 7. a3, "
+        "11": "Interestingly, the engine already thinks 6...c5 is a forced draw, after a line like 7. a3, 7. Rb1, "
       },
       "notes": "",
       "status": "approved",
