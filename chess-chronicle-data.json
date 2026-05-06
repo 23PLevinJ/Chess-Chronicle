@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T19:08:44.016Z",
+  "_savedAt": "2026-05-06T19:08:45.515Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -81,9 +81,7 @@
         "Kg1",
         "Be5"
       ],
-      "annotations": {
-        "58": "?!"
-      },
+      "annotations": {},
       "comments": {
         "2": "The King's Indian Attack. White sets up a modest structure on his side of the board with the goal of advancing in the midgame.",
         "5": "Securing the d-pawn, as one of White's main ideas is to dislodge this pawn. Other options were 3...c5, creating a large pawn-centre, 3...g6, going for a fianchetto of Black's own, 3...e6, securing the d-pawn while opening up the King's Bishop (but locking in the Queen's) and 3...Bg4, weakening the e4 advance.",
