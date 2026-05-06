@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T19:08:16.722Z",
+  "_savedAt": "2026-05-06T19:08:20.782Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -133,16 +133,6 @@
       "submittedAt": "2026-05-04T12:40:07.666Z",
       "variations": {
         "37": [
-          {
-            "id": "vmosgq8t7",
-            "moves": [
-              "Rfd1",
-              "Nc7",
-              "h4"
-            ],
-            "annotations": {},
-            "label": "var 1"
-          },
           {
             "id": "vmosgrixw",
             "moves": [
