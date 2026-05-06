@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T18:04:18.182Z",
+  "_savedAt": "2026-05-06T18:12:13.254Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -863,6 +863,45 @@
       "submittedBy": "Jamstiffer",
       "submittedAt": "2026-05-06T18:02:36.605Z",
       "variations": {}
+    },
+    {
+      "id": "1778091132039_vchc",
+      "white": "Daniel Vesterbaek Pederson",
+      "black": "Jacob Aagaard",
+      "result": "1/2-1/2",
+      "date": "2024-01-28",
+      "opening": "Four Knights Game: Scotch Variation Accepted",
+      "location": "61st TCh-DEN Ex 2023-24",
+      "tc": "Classical",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Nxd4",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "Nxc6",
+        "bxc6",
+        "Bd3",
+        "d5",
+        "exd5",
+        "cxd5",
+        "O-O",
+        "O-O",
+        "Bg5",
+        "c6",
+        "Qf3"
+      ],
+      "annotations": {},
+      "comments": {},
+      "notes": "",
+      "status": "approved",
+      "submittedBy": "Jamstiffer",
+      "submittedAt": "2026-05-06T18:12:12.040Z"
     }
   ],
   "players": {
@@ -881,7 +920,8 @@
         "1778084636224_atms",
         "1778087509713_vyu2",
         "1778090154062_x7f4",
-        "1778090556604_cwdg"
+        "1778090556604_cwdg",
+        "1778091132039_vchc"
       ]
     },
     "Michael E Vesterli": {
@@ -913,6 +953,12 @@
       "name": "Nikolai Kvist Brondt",
       "gameIds": [
         "1778090556604_cwdg"
+      ]
+    },
+    "Daniel Vesterbaek Pederson": {
+      "name": "Daniel Vesterbaek Pederson",
+      "gameIds": [
+        "1778091132039_vchc"
       ]
     }
   },
