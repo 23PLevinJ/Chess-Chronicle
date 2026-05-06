@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T16:30:17.590Z",
+  "_savedAt": "2026-05-06T17:11:50.921Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -533,6 +533,79 @@
       "submittedBy": "Jamstiffer",
       "submittedAt": "2026-05-06T16:23:56.225Z",
       "variations": {}
+    },
+    {
+      "id": "1778087509713_vyu2",
+      "white": "Jacob Aagaard",
+      "black": "Uffe Vinter Schou",
+      "result": "1-0",
+      "date": "2025-03-29",
+      "opening": "Sicilian Defence: Kan Variation",
+      "location": "62nd TCh-DEN Ex 2024-25",
+      "tc": "Classical",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "e6",
+        "d4",
+        "cxd4",
+        "Nxd4",
+        "a6",
+        "Qd3",
+        "Nf6",
+        "Be2",
+        "d6",
+        "c4",
+        "Nbd7",
+        "Nc3",
+        "Qc7",
+        "O-O",
+        "Ne5",
+        "Qg3",
+        "h5",
+        "Bg5",
+        "Be7",
+        "Rad1",
+        "Bd7",
+        "f4",
+        "Nxc4",
+        "Bxc4",
+        "Qxc4",
+        "e5",
+        "h4",
+        "Bxh4",
+        "Nh5",
+        "Qg4",
+        "dxe5",
+        "fxe5",
+        "Bc5",
+        "Kh1",
+        "Bc6",
+        "Qg5",
+        "Bd5",
+        "Nxd5",
+        "exd5",
+        "Nf5",
+        "g6",
+        "Rc1",
+        "Qd3",
+        "Rf3",
+        "Qe2",
+        "Re1",
+        "Qxb2",
+        "Nd6+",
+        "Kd7",
+        "Qe7+",
+        "Kc6",
+        "Rb3"
+      ],
+      "annotations": {},
+      "comments": {},
+      "notes": "",
+      "status": "approved",
+      "submittedBy": "Jamstiffer",
+      "submittedAt": "2026-05-06T17:11:49.713Z"
     }
   ],
   "players": {
@@ -548,7 +621,8 @@
         "1777898407666_u3e3",
         "1777998584890_h00z",
         "1778072572413_wezm",
-        "1778084636224_atms"
+        "1778084636224_atms",
+        "1778087509713_vyu2"
       ]
     },
     "Michael E Vesterli": {
@@ -567,6 +641,12 @@
       "name": "Sergei Tiviakov",
       "gameIds": [
         "1778084636224_atms"
+      ]
+    },
+    "Uffe Vinter Schou": {
+      "name": "Uffe Vinter Schou",
+      "gameIds": [
+        "1778087509713_vyu2"
       ]
     }
   },
