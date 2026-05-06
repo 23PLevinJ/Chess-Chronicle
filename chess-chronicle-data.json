@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T18:18:24.763Z",
+  "_savedAt": "2026-05-06T18:53:03.163Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -1019,6 +1019,98 @@
       "submittedBy": "Jamstiffer",
       "submittedAt": "2026-05-06T18:16:21.022Z",
       "variations": {}
+    },
+    {
+      "id": "1778093581928_858y",
+      "white": "Kresten Skytte Hagen",
+      "black": "Jacob Aagaard",
+      "result": "0-1",
+      "date": "2024-04-06",
+      "opening": "English Opening: Symmetrical Variation",
+      "location": "61st TCh-DEN Ex 2023-24",
+      "tc": "Classical",
+      "moves": [
+        "Nf3",
+        "c5",
+        "c4",
+        "Nc6",
+        "Nc3",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "d6",
+        "O-O",
+        "Bg4",
+        "h3",
+        "Bd7",
+        "e3",
+        "Nf6",
+        "d4",
+        "O-O",
+        "d5",
+        "Na5",
+        "Qe2",
+        "a6",
+        "e4",
+        "b5",
+        "e5",
+        "Ne8",
+        "e6",
+        "fxe6",
+        "dxe6",
+        "Bc6",
+        "cxb5",
+        "axb5",
+        "Nxb5",
+        "Nb3",
+        "Rb1",
+        "Rxa2",
+        "Qd3",
+        "Nxc1",
+        "Rfxc1",
+        "Rxb2",
+        "Rxb2",
+        "Bxb2",
+        "Rxc5",
+        "Qa8",
+        "Rxc6",
+        "Qxc6",
+        "Nh4",
+        "Qc5",
+        "Qe2",
+        "Be5",
+        "g4",
+        "Ng7",
+        "Nf3",
+        "Ra8",
+        "Nxe5",
+        "Ra1+",
+        "Kh2",
+        "Qxe5+",
+        "Qxe5",
+        "dxe5",
+        "Nc3",
+        "Nxe6",
+        "Bd5",
+        "Ra6",
+        "Ne4",
+        "Kg7",
+        "Kg3",
+        "Ra3+",
+        "f3",
+        "Nd4",
+        "Ng5",
+        "h6",
+        "Nf7",
+        "e6"
+      ],
+      "annotations": {},
+      "comments": {},
+      "notes": "",
+      "status": "approved",
+      "submittedBy": "Jamstiffer",
+      "submittedAt": "2026-05-06T18:53:01.930Z"
     }
   ],
   "players": {
@@ -1039,7 +1131,8 @@
         "1778090154062_x7f4",
         "1778090556604_cwdg",
         "1778091132039_vchc",
-        "1778091381021_noei"
+        "1778091381021_noei",
+        "1778093581928_858y"
       ]
     },
     "Michael E Vesterli": {
@@ -1078,6 +1171,12 @@
       "name": "Daniel Vesterbaek Pederson",
       "gameIds": [
         "1778091132039_vchc"
+      ]
+    },
+    "Kresten Skytte Hagen": {
+      "name": "Kresten Skytte Hagen",
+      "gameIds": [
+        "1778093581928_858y"
       ]
     }
   },
