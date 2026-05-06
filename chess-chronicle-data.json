@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T18:53:03.163Z",
+  "_savedAt": "2026-05-06T18:53:49.528Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -1105,12 +1105,15 @@
         "Nf7",
         "e6"
       ],
-      "annotations": {},
+      "annotations": {
+        "24": "!"
+      },
       "comments": {},
       "notes": "",
       "status": "approved",
       "submittedBy": "Jamstiffer",
-      "submittedAt": "2026-05-06T18:53:01.930Z"
+      "submittedAt": "2026-05-06T18:53:01.930Z",
+      "variations": {}
     }
   ],
   "players": {
