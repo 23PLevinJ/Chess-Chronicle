@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-06T19:02:05.409Z",
+  "_savedAt": "2026-05-06T19:08:16.722Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -81,13 +81,80 @@
         "Kg1",
         "Be5"
       ],
-      "annotations": {},
-      "comments": {},
-      "notes": "",
+      "annotations": {
+        "12": "!?",
+        "32": "?!",
+        "33": "?!",
+        "40": "?!",
+        "46": "?!",
+        "47": "!",
+        "54": "?!",
+        "55": "?!",
+        "56": "?!",
+        "57": "!",
+        "58": "?!"
+      },
+      "comments": {
+        "2": "The King's Indian Attack. White sets up a modest structure on his side of the board with the goal of advancing in the midgame.",
+        "5": "Securing the d-pawn, as one of White's main ideas is to dislodge this pawn. Other options were 3...c5, creating a large pawn-centre, 3...g6, going for a fianchetto of Black's own, 3...e6, securing the d-pawn while opening up the King's Bishop (but locking in the Queen's) and 3...Bg4, weakening the e4 advance.",
+        "7": "It is best to bring this Bishop to an active post before it is locked in by ...e6 or ...Nbd7.",
+        "9": "Capturing is also a viable option here, but gives White more control of e4.",
+        "10": "The interesting option here is 6. c4, creating more pressure on the d-pawn and inviting it to give up its central post.",
+        "13": "Other development is also good here, but this move allows a defensive manoeuvre after exchanges on d5.",
+        "14": "This exchange opens lines for White, specifically along the a2-g8 diagonal, and the e-file. It also weakens d5 somewhat.",
+        "15": "8...Nxd5 and the Knight gets kicked by e4. 8...cxd5 is not bad, but is moderately weakening along the a4-e8 diagonal.",
+        "16": "Amping up pressure on d5 and creating a threat on b7. The thrust Ne5 and the developing Nc3 were also viable.",
+        "17": "The issue with this move is that after 10. a4 a5, the Black Queen is pinned to the protection of this Knight, which is irritating for Black.",
+        "18": "This move looks odd, but if the Knight moves to f5, it will be very irritating for Black if they attempt to manoeuvre their pieces in any way.",
+        "23": "12...fxg6? is quite bad for Black, as after 13. e4 dxe4 14. Nxe4 Nfd5, the e4 Knight cannot be moved by f5 and exerts a very strong influence over the Black position.",
+        "24": "",
+        "25": "13...a5, creating Queenside initiative, is an interesting option here. The ugly-looking but viable option is 13...Be7, losing a tempo but breaking the pin.",
+        "28": "15. Nxe4 exerts a greater influence across the board and creates more attacking opportunities.",
+        "29": "This and 15...Qc8 provide a defence to Bxg6 due to the counterthreat of Qxh3 followed by a Bishop sacrifice on g3. The issue is the awkward pawns that the trade on f6 provides.",
+        "32": "Ignoring the threat on h3 for currently irrelevant Queenside compensation. 17. Kg2 is better for White.",
+        "33": "Compromising the King safety in the long term and blocking off Qxh3. This move is not too bad as you get some time to straighten out the awkward Queenside pieces, but it was not the play.",
+        "37": "The game is very even right now. Nc8 also worked.",
+        "38": "",
+        "40": "This exchange is not favourable for White, as the open b file proves more an irritation than a boon. Black now has a very slight advantage. Developing the rooks for a d-pawn or h-pawn advance worked better.",
+        "42": "A neat deflection tactic, but Black gets sufficient compensation for the pawn.",
+        "46": "24. d5! is a difficult drawing line to find under any circumstances. Black is now slightly up and will require very precise defence from White to keep him out.",
+        "49": "Creating an attack on the d-pawn.",
+        "53": "Bxg3 is now a major threat.",
+        "54": "Ra4 is a better attack according to the engines, likely due to some tactical points that arise.",
+        "55": "Qf6, attempting to mobilise the Kingside pawns, is better.",
+        "56": "This obvious defence to the g-pawn is in fact fairly bad for White. seeking counterplay with 29. h4! Bxg3 30. h5! was White's best attempt at an attack, as now they are fighting a miserable endgame.",
+        "57": "Exchanging off pieces is a good idea when up material in an endgame.",
+        "58": "If White wanted to try for the advantage, he needed to not allow any exchanges of pieces.",
+        "63": "Qxb2 wins a pawn but exposes the King after Nxf5+ gxf5 Qg5+."
+      },
+      "notes": "This game shows how accurate defence can overwhelm a player who makes only a few mistakes.",
       "status": "approved",
       "submittedBy": "Jamstiffer",
       "submittedAt": "2026-05-04T12:40:07.666Z",
-      "variations": {},
+      "variations": {
+        "37": [
+          {
+            "id": "vmosgq8t7",
+            "moves": [
+              "Rfd1",
+              "Nc7",
+              "h4"
+            ],
+            "annotations": {},
+            "label": "var 1"
+          },
+          {
+            "id": "vmosgrixw",
+            "moves": [
+              "Rfd1",
+              "Qe7"
+            ],
+            "annotations": {},
+            "label": "var 2"
+          }
+        ]
+      }
+    },
     {
       "id": "1777998584890_h00z",
       "white": "Jacob Aagaard",
@@ -153,8 +220,19 @@
         "Ba5",
         "Qa7"
       ],
-      "annotations": {},
-      "comments": {},
+      "annotations": {
+        "16": "?!"
+      },
+      "comments": {
+        "1": "The Anglo-Indian Defence. Black gives White the opportunity to transpose into an Indian Defence and keeps control of e4.",
+        "5": "Black is dearly trying to induce White to transpose into a King's Indian by playing d4, but as we shall see, that is not White's intention.",
+        "8": "",
+        "10": "Note that if White had played d4 here we would be in a main line of the King's Indian Defence.",
+        "11": "Interestingly, the engine already thinks 6...c5 is a forced draw, after a line like 7. a3, 7. Rb1, 7. d3 or 7. O-O. After 6...Nc6, White has a slight advantage but not a winning one.",
+        "13": "There is little more to be gained from holding back the central thrust much longer.",
+        "15": "An odd maneouvre, and while not bad, it is not clear what Black intended with this move.",
+        "16": "An unnecessary central thust. 9. f4, working on the already developed Kingside, is more effective."
+      },
       "notes": "",
       "status": "approved",
       "submittedBy": "Jamstiffer",
