@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-07T09:48:59.412Z",
+  "_savedAt": "2026-05-07T09:51:10.151Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -1456,6 +1456,73 @@
       "submittedBy": "Jamstiffer",
       "submittedAt": "2026-05-07T09:34:26.048Z",
       "variations": {}
+    },
+    {
+      "id": "1778147468926_z8b7",
+      "white": "Jorden Van Foreest",
+      "black": "Garry Kasparov",
+      "result": "1-0",
+      "date": "2021-09-10",
+      "opening": "Sicilian Defence: Najdorf Variation",
+      "location": "GCT Blitz Croatia 2021",
+      "tc": "Blitz",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "d6",
+        "d4",
+        "cxd4",
+        "Nxd4",
+        "Nf6",
+        "Nc3",
+        "a6",
+        "Bg5",
+        "e6",
+        "f4",
+        "Qc7",
+        "Bxf6",
+        "gxf6",
+        "Qf3",
+        "b5",
+        "a3",
+        "Nc6",
+        "Nxc6",
+        "Qxc6",
+        "f5",
+        "Qc5",
+        "Be2",
+        "Ra7",
+        "O-O-O",
+        "Qe5",
+        "Rhf1",
+        "Rc7",
+        "Kb1",
+        "h5",
+        "h4",
+        "Be7",
+        "Qe3",
+        "Qc5",
+        "Qg3",
+        "Kf8",
+        "fxe6",
+        "fxe6",
+        "Qg6",
+        "Qe5",
+        "Rd3",
+        "Bd8",
+        "Rg3",
+        "Rf7",
+        "Rg5",
+        "Qd4",
+        "Bxh5"
+      ],
+      "annotations": {},
+      "comments": {},
+      "notes": "",
+      "status": "approved",
+      "submittedBy": "Jamstiffer",
+      "submittedAt": "2026-05-07T09:51:08.928Z"
     }
   ],
   "players": {
@@ -1536,6 +1603,18 @@
       "name": "Brian Jorgensen",
       "gameIds": [
         "1778146466045_qf7j"
+      ]
+    },
+    "Jorden Van Foreest": {
+      "name": "Jorden Van Foreest",
+      "gameIds": [
+        "1778147468926_z8b7"
+      ]
+    },
+    "Garry Kasparov": {
+      "name": "Garry Kasparov",
+      "gameIds": [
+        "1778147468926_z8b7"
       ]
     }
   },
