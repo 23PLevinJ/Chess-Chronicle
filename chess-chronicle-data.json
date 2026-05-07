@@ -1,6 +1,6 @@
 {
   "_version": 5,
-  "_savedAt": "2026-05-07T09:51:10.151Z",
+  "_savedAt": "2026-05-07T09:52:19.964Z",
   "games": [
     {
       "id": "1777898407666_u3e3",
@@ -1517,12 +1517,15 @@
         "Qd4",
         "Bxh5"
       ],
-      "annotations": {},
+      "annotations": {
+        "25": "?"
+      },
       "comments": {},
       "notes": "",
       "status": "approved",
       "submittedBy": "Jamstiffer",
-      "submittedAt": "2026-05-07T09:51:08.928Z"
+      "submittedAt": "2026-05-07T09:51:08.928Z",
+      "variations": {}
     }
   ],
   "players": {
