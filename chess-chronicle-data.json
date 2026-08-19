@@ -1,10 +1,8 @@
 {
   "_version": 5,
-  "_savedAt": "2026-08-19T15:34:59.333Z",
+  "_savedAt": "2026-08-19T15:35:27.955Z",
   "games": [],
-  "players": {
-    
-  },
+  "players": {},
   "users": {
     "Jamstiffer": {
       "username": "Jamstiffer",
