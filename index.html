@@ -1424,6 +1424,24 @@ function setMethod(m,btn){
   if(m==='board') drawEB(); if(m==='alg') drawAB();
 }
 
+function normSAN(s){ return String(s||'').replace(/[+#!?]/g,'').trim().toLowerCase(); }
+function movesEqual(a,b){
+  if(a.length!==b.length) return false;
+  for(let i=0;i<a.length;i++) if(normSAN(a[i])!==normSAN(b[i])) return false;
+  return true;
+}
+function findDuplicateGame(w,b,result,date,moves){
+  const wl=w.trim().toLowerCase(), bl=b.trim().toLowerCase();
+  return DB.games.find(g=>{
+    if(g.status==='rejected') return false;
+    if(g.white.trim().toLowerCase()!==wl) return false;
+    if(g.black.trim().toLowerCase()!==bl) return false;
+    if((g.result||'')!==result) return false;
+    if((g.date||'')!==date) return false;
+    return movesEqual(g.moves||[],moves);
+  });
+}
+
 function submitGame(){
   const w=$('ag-w').value.trim(), b=$('ag-b').value.trim();
   if(!w||!b){ flashMsg('ag-msg','Both player names required.',true); return; }
@@ -1431,11 +1449,15 @@ function submitGame(){
   if(entryMethod==='board')    moves=EB.moves.map(m=>m.san);
   else if(entryMethod==='alg') moves=AB.moves.map(m=>m.san);
   else                         moves=parsePGNMoves($('ag-pgn').value.trim());
+  const result=$('ag-res').value;
+  const date=$('ag-date').value||new Date().toISOString().slice(0,10);
+  const dup=findDuplicateGame(w,b,result,date,moves);
+  if(dup){ flashMsg('ag-msg','⚠ An identical game already exists — not added.',true); return; }
   const isMod=CU?.role==='moderator';
   const gid=Date.now()+'_'+Math.random().toString(36).slice(2,6);
   const game={
-    id:gid,white:w,black:b,result:$('ag-res').value,
-    date:$('ag-date').value||new Date().toISOString().slice(0,10),
+    id:gid,white:w,black:b,result,
+    date,
     opening:$('ag-op').value.trim(),location:$('ag-loc').value.trim(),tc:$('ag-tc').value,
     moves,annotations:{},comments:{},notes:'',
     status:isMod?'approved':'pending',
