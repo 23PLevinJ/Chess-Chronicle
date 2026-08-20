@@ -4,7 +4,7 @@
   "games": [
     {
       "id": "1787154387546_ivch",
-      "white": "Aagaard,  Jacob",
+      "white": "Aagaard, Jacob",
       "black": "Birkett, Richard",
       "result": "1-0",
       "date": "2015-07-11",
@@ -161,7 +161,8 @@
     "Aagaard,  Jacob": {
       "name": "Aagaard,  Jacob",
       "gameIds": [
-        "1787154387546_ivch"
+        "1787154387546_ivch",
+        "1787240080496_x5mu"
       ]
     },
     "Birkett, Richard": {
@@ -176,12 +177,6 @@
         "1787240080496_x5mu"
       ]
     },
-    "Aagaard, Jacob": {
-      "name": "Aagaard, Jacob",
-      "gameIds": [
-        "1787240080496_x5mu"
-      ]
-    }
   },
   "users": {
     "Jamstiffer": {
